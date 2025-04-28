@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caixa do Futuro</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.10.0/js/md5.min.js"></script>
+  </head>
+  <body>
+    <div class="music-player">
+      <button onclick="playPause()">🎵</button>
+      <audio id="audio">
+        <source src="assets/musica/musica.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+
+    <div class="container">
+      <h1>Caixa do Futuro</h1>
+      <p>Momentos especiais guardados para o nosso futuro juntos.</p>
+
+      <div class="cofre">
+        <input type="password" id="senha" placeholder="Digite a senha" />
+        <button onclick="desbloquear()">Desbloquear</button>
+      </div>
+    </div>
+
+    <div id="momentos" class="hidden">
+      <div class="momento desbloqueado">
+        <h2>🌟 1 Ano de Namoro</h2>
+        <p>Nosso primeiro grande marco juntos!</p>
+        <a href="1ano.html" class="btn-acessar">Acessar</a>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>💍 Casamento</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🗺 Primeira Viagem Juntos</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>✈ Primeira Viagem Internacional</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🎉 Surpresa Especial</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🎓 Formatura da Aninha</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🍳 Cozinhando Juntos</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🐾 Primeiro Animal de Estimação</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🌅 Caminhada ao Amanhecer</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🎥 Primeiro Filme no Cinema Juntos</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🍽 Jantar à Luz de Velas</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>☕ Café da Manhã na Cama</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🎤 Ir a um Show ou Festival Juntos</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>📝 Fazer uma Lista de Sonhos e Metas Juntos</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🌄 Ver o Nascer ou o Pôr do Sol em um Lugar Especial</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>⏳ Criar uma Cápsula do Tempo</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>📺 Fazer uma Maratona de Filmes ou Séries no Fim de Semana</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🎲 Fazer uma Noite de Jogos de Tabuleiro ou Cartas</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🏙 Ir a um Restaurante Temático ou Exótico</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🌳 Passar o Dia em um Lugar com Muita Natureza</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🍇 Fazer um Piquenique ao Ar Livre</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🖼 Fazer um Mural de Fotos do Relacionamento</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>💌 Escrever Cartas de Amor e Abrir no Futuro</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🎨 Ir a uma Exposição de Arte ou Museu Juntos</h2>
+        <p>Bloqueado</p>
+      </div>
+
+      <div class="momento bloqueado">
+        <h2>🏀 Assistir a um Jogo de Basquete Meu</h2>
+        <p>Bloqueado</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
